@@ -6,7 +6,7 @@ function App() {
 
   const handleClick = () => {
     setTimeout(() => {
-      setCounter((prevState) => prevState + 1);
+      setCounter(prevState => prevState + 1);
     }, 1000);
   };
 
